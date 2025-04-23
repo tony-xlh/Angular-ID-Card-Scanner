@@ -2,7 +2,7 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.8.
 
-It uses [Dynamic Web TWAIN](https://www.dynamsoft.com/web-twain/overview) to scan documents and use [Dynamsoft Capture Vision](https://www.dynamsoft.com/capture-vision/docs/core/) to read barcodes and MRZ.
+It uses [Dynamic Web TWAIN](https://www.dynamsoft.com/web-twain/overview) to scan documents and uses [Dynamsoft Capture Vision](https://www.dynamsoft.com/capture-vision/docs/core/) to read barcodes and MRZ.
 
 ## Development server
 
