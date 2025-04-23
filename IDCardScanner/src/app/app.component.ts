@@ -34,9 +34,16 @@ export class AppComponent {
   }
 
   async scan(){
-    if (this.DWTObject){ 
+    if (this.DWTObject) { 
       await this.DWTObject.SelectSourceAsync()
       await this.DWTObject.AcquireImageAsync({ IfCloseSourceAfterAcquire: true });
+    }
+  }
+
+  edit(){
+    if (this.DWTObject) { 
+      const imageEditor = this.DWTObject.Viewer.createImageEditor();
+      imageEditor.show();
     }
   }
 }
