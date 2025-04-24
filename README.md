@@ -4,6 +4,13 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 
 It uses [Dynamic Web TWAIN](https://www.dynamsoft.com/web-twain/overview) to scan documents and uses [Dynamsoft Capture Vision](https://www.dynamsoft.com/capture-vision/docs/core/) to read barcodes and MRZ.
 
+## License Settings
+
+You have to set licenses for the two products.
+
+1. [Apply a license](https://www.dynamsoft.com/customer/license/trialLicense?product=dwt) for Dynamic Web TWAIN and set it using `Dynamsoft.DWT.ProductKey` in `app.component.ts`.
+2. [Apply a license](https://www.dynamsoft.com/customer/license/trialLicense?product=dcv) for Dynamsoft Capture Vision and set it using `LicenseManager.initLicense` in `dcv.ts`.
+
 ## Development server
 
 To start a local development server, run:
